@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Karla", sans-serif;
+  background-color: #1f2937;
+}
+
+/* HERO STYLING */
+main {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero {
+  height: 25vh;
+}
+.hero h1 {
+  font-size: 2.5em;
+  font-weight: 800;
+}
+.hero p {
+  font-size: 1.5em;
+  color: #d5d4d8;
+  margin-bottom: 2em;
+}
+#title1 {
+  color: #ffffff;
+}
+#title2 {
+  color: #10b981;
+  margin-bottom: 0.2em;
+}
+
+.btn {
+  background-color: #10b981;
+  color: #ffffff;
+  padding: 1em;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #059669;
+}
+.btn:active {
+  background-color: #6ee7b7;
+}
+
+.border-line {
+  background-color: #2f3e53;
+  margin: 3em 0;
+  height: 2px;
+}
+
+.password-box {
+  display: flex;
+  justify-content: space-between;
+}
+span {
+  text-align: center;
+  background-color: #273549;
+  color: #10b981;
+  padding: 0.8em 1.5em;
+  border-radius: 5px;
+  width: 48%;
+  cursor: pointer;
+}
